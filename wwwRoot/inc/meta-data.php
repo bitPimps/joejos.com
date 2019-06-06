@@ -14,4 +14,5 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli|Nobile|Open+Sans+Condensed:300&display=swap">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="/caua/css/main.css?<?php echo(rand(10,10000)); ?>" />
+		<link rel="stylesheet" href="/joejos/css/main.css" />
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
