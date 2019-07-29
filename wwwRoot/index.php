@@ -12,10 +12,12 @@
 		<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
 			<main role="main" class="inner cover">
 				<img src="img/menu.jpg" class="img-fluid" alt="Joe-Jo's Fish &amp; Chicken Menu">
+				<br>
+				<img src="img/coming-soon.jpg" class="img-fluid" alt="Coming Soon">
 			</main>
 			<footer class="mastfoot mt-auto">
 				<div class="inner">
-					<p>Joe-Jo's Fish &amp; Chicken | <a href="mailto:mothersfish17@gmail.com">mothersfish17@gmail.com</a><br>
+					<p>Joe-Jo's Fish &amp; Chicken | <a href="mailto:joejos314@gmail.com">joejos314@gmail.com</a> | <a href="tel:+13143491833">314-349-1833</a><br>
 						4132 Dr. Martin Luther King Drive, St Louis, MO 63113<br>
 						<small>Copyright &copy; <?php echo date("Y") ?> Joe-Jo's Fish &amp; Chicken - All Rights Reserved.</small></p>
 				</div>
