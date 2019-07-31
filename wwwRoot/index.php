@@ -18,10 +18,10 @@
 				-->
 			</main>
 			<footer class="mastfoot mt-auto">
-				<div class="inner">
-					<p>Joe-Jo's Fish &amp; Chicken | <a href="mailto:joejos314@gmail.com">joejos314@gmail.com</a> | <a href="tel:+13143491833">314-349-1833</a><br>
+				<div class="inner" style="background-color:rgba(0,0,0,0.65);padding:0.1rem">
+					<p><strong>Joe-Jo's Fish &amp; Chicken | <a href="mailto:joejos314@gmail.com">joejos314@gmail.com</a><br>
 						4132 Dr. Martin Luther King Drive, St Louis, MO 63113<br>
-						<small>Copyright &copy; <?php echo date("Y") ?> Joe-Jo's Fish &amp; Chicken - All Rights Reserved.</small></p>
+						<small>Copyright &copy; <?php echo date("Y") ?> Joe-Jo's Fish &amp; Chicken - All Rights Reserved.</small></strong></p>
 				</div>
 			</footer>
 		</div>
