@@ -11,7 +11,7 @@
 	<body class="text-center">
 		<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
 			<main role="main" class="inner cover">
-				<img src="img/coming-soon.jpg" class="img-fluid" alt="Coming Soon">
+				<img src="img/menu.jpg" class="img-fluid" alt="Joe-Jo's Fish &amp; Chicken">
 				<!--
 				<br><br>
 				<img src="img/menu.jpg" class="img-fluid" alt="Joe-Jo's Fish &amp; Chicken Menu">
