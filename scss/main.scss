@@ -1,0 +1,50 @@
+// Color palletes
+$white:         #FFFFFF;
+$black:         #000000;
+$gray-dark:     #383838;
+$pc-dark:       #e94939;
+$pc-light:      #fbdbd8;
+$sc-dark:       #c4996c;
+$sc-light:      #f7f0ea;
+$ac-dark:       #01a9da;
+$ac-light:      #dbf7ff;
+
+.bg-ac-dark {
+  background-color: $ac-dark;
+}
+.bg-ac-light {
+  background-color: $ac-light;
+}
+
+.text-pc-dark {
+  color: $pc-dark;
+}
+.text-pc-light {
+  color: $pc-light;
+}
+.text-sc-dark {
+  color: $sc-dark;
+}
+.text-sc-light {
+  color: $sc-light;
+}
+
+/* Anchor link offset */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+body {
+  padding-top: 6.30rem;
+}
+
+footer a {
+  color: $sc-dark;
+}
+footer a:focus,
+footer a:hover {
+  color: $sc-light;
+}
