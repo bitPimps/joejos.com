@@ -16,7 +16,7 @@
             <script src="https://gh-prod-nitrosites.s3.amazonaws.com/scripts/iframeLib.min.js"></script>
         </header>
         <main role="main" class="inner cover" style="background-color:rgba(0,0,0,0.65);padding:0.1rem">
-            <img src="img/menu.webp?<?php echo(rand(10,10000)); ?>" class="img-fluid" alt="Joe-Jo's Fish &amp; Chicken" width="1320" height="1020">
+            <img src="img/menu.webp?<?php echo (rand(10, 10000)); ?>" class="img-fluid" alt="Joe-Jo's Fish &amp; Chicken" width="1320" height="1020">
         </main>
         <footer class="mastfoot mt-auto">
             <div class="inner" style="background-color:rgba(0,0,0,0.65);padding:0.1rem">
