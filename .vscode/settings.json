@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "css.styleSheets": [
+        "/public/css/main.min.css",
+    ],
+    "liveSassCompile.settings.autoprefix": true,
+    "liveSassCompile.settings.formats": [
+        {
+        // compress the css file
+        "format": "compressed",
+        // add .min.css as the extension
+        "extensionName": ".min.css",
+        // define the output/save path
+        "savePath": "/public/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/_styles/!screen.sass",
+        "/node_modules/**",
+        "/.vscode/**"
+    ],
+}
