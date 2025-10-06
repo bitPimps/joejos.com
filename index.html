@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joe-Jo's Fish & Chicken</title>
+    <link rel="canonical" href="https://joejos.com/" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <style>
+        /* Reset and base */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #333;
+            background-image: url('images/background.webp');
+            background-position: 50% 10%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            height: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 1rem;
+        }
+
+        img.responsive-menu {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1.25rem auto 0;
+            box-sizing: border-box;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            padding: 1rem 0;
+            font-size: 0.9em;
+            background: linear-gradient(90deg,
+                    rgba(1, 169, 218, 0) 25%,
+                    rgba(1, 169, 218, 1) 40%,
+                    rgba(1, 169, 218, 1) 60%,
+                    rgba(1, 169, 218, 0) 75%);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        footer address {
+            font-style: normal;
+            margin: 0.5rem 0;
+            color: #cceeff;
+        }
+
+        /* Responsive: Left align text on mobile, center on larger screens */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+                text-align: left;
+            }
+
+            footer {
+                background: #01a9da;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" role="main">
+        <header>
+            <div class="gh-button-ifrm" data-customer-id="1454683" data-restaurant-name="Joe-Jo's Fish & Chicken" data-button-type="branded" data-button-color="red" data-button-size="large" data-env="prod" data-url="joejos-fish--chicken-4132-dr-martin-luther-king-dr-st.-louis" data-tracking-id="1454683" data-restaurant-address="4132 Dr Martin Luther King Dr, St. Louis MO, 63113" data-version="1.0" data-link-type="gh">
+            </div>
+            <script src="https://gh-prod-nitrosites.s3.amazonaws.com/scripts/iframeLib.min.js" async></script>
+        </header>
+
+        <main>
+            <img src="images/menu.webp" alt="Joe-Jo's Fish & Chicken Menu" class="responsive-menu" />
+        </main>
+
+        <footer>
+            <strong>Joe-Jo's Fish &amp; Chicken | <a href="mailto:joejos314@gmail.com">joejos314@gmail.com</a></strong>
+            <address>4132 Dr. Martin Luther King Drive, St Louis, MO 63113</address>
+            <small>Copyright &copy; <span id="copyright-year"></span> Joe-Jo's Fish &amp; Chicken - All Rights Reserved.</small>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("copyright-year").textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>
